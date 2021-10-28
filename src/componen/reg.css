@@ -1,0 +1,17 @@
+.pop{
+    background-color: rgb(238, 179, 137);
+    height: 100%;
+    width: 100%;
+}
+
+.alert_now{
+    position: fixed;
+    border-radius: 20px;
+    border:rgb(238, 212, 193) solid 5px;
+    top:280px;
+    left:600px;
+    height: 300px;
+    width: 300px;
+    background-color:rgb(235, 227, 227);;
+    z-index: 1;
+  }

@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navjs{
+  display: flex;
+  flex-direction: row;
+  width:97%;
+
+  height: 50px;
+  font-size: larger;
+  position:absolute;
+  top:106px;
+  left:25px;
+  right: 10px;
+  color: rgb(95, 87, 87);
+  background-color: rgb(135, 180, 216);
+}
+.patbutton{
+  position: absolute;
+  font-size:medium;
+  top:110px;
+  height: 40px;
+  width:70px;
+  border: black solid 2px;
+  border-radius: 20px;
+  background-color: rgb(228, 226, 226);
+  
+  
+}
+.navjs_nav{
+  position: absolute;
+  
+  top:24px;
+  left: 20px;
+}
+
+.imgbutton{
+  position: absolute;
+  top:90px;
+  border-radius: 100%;
+  border:rgb(109, 32, 32) solid 2px;
+  height:50px;
+  width: 50px;
+background-color: mintcream;
+
+font-size: x-large;
+color:rgb(216, 208, 208)
+}
+
+
+
+
+
+.lt{
+  position: absolute;
+  left:145px;
+ 
+}
+
+
+
+.rt{
+  position: absolute;
+  right:250px;
+
+ 
+}
+
+
+
+
+.navjs_navtext{
+  position:absolute;
+  
+  top:24px;
+  right: 30px;
+}
+
+.imageclass{
+  height: 200px;
+  width:70%;
+  position: absolute;
+  top:170px;
+  left:200px;
+  background-color:white;
+  
+
+
+}
+
+
+.disable{
+  opacity: 0.1;
+  cursor: not-allowed;
+}
+
+.pat{
+position: absolute;
+top:360px;
+left:25px;
+width:100%;
+
+}
+
+.navb{
+  height: 100px;
+  width: 100%;
+  font-size: 81px;
+  background-color:whitesmoke;
+  color:maroon;
+  margin-bottom: 10px;
+}
+
+.pfield{
+  position:absolute;
+  top: 65px;
+  border:black solid 2px;
+  height: 30px;
+  width:50%;
+}
+
+
+ .nav-link{
+  padding: 5px;
+  color: rgb(95, 87, 87);
+  text-decoration: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.playcard{
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  top:530px;
+  left:25px;
+  right:25px;
+  height:200px;
+  width:95%;
+  justify-content: space-between;
+
+
+}
+
+.card1{
+  height:150px ;
+  width:250px;
+
+  margin-left: 27px;
+  margin-top: 15px;
+  margin-right: 50px;
+  font-style: bold;
+
+}
+
+.cardt{
+  position: absolute;
+  top:95px;
+  border: black solid 3px;
+  font-size: x-large;
+  color: rgb(29, 28, 28);
+  position:absolute;
+  margin-top: 0px;
+  margin-left: 99px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
